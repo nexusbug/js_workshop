@@ -17,7 +17,7 @@ function draw() {
     x += 50;
   }
 
-  for (let i = 0; i <= width; i = i + 50) {
+  for (let i = 0; i <= width; i += 50) {
     fill(55, 120, 0);
     ellipse(i, 450, 25);
 

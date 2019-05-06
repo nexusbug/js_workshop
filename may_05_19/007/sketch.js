@@ -3,16 +3,14 @@ let bubble;
 function setup() {
   createCanvas(600, 600);
   bubble = new Ball(48);
-
 }
 
-function draw() {
 
+function draw() {
   background(0);
   bubble.display();
   bubble.bounce();
   bubble.move();
-
 }
 
 
